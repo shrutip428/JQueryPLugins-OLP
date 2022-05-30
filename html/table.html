@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="../css/form-mystyle.css">
+        <link rel="stylesheet" href="bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="D:\Tntra Internship\HTMLforms\jquery validator plugins\jquery.validate.min.js"></script>
+        <script>
+            var fn = localStorage.getItem('fn');
+            var ln = localStorage.getItem('ln');
+            var ad1 = localStorage.getItem('ad1');
+            var ad2 = localStorage.getItem('ad2');
+            var cn = localStorage.getItem('cn');
+            var sn = localStorage.getItem('sn');
+            var nm = localStorage.getItem('nm');
+            var email1 = localStorage.getItem('email1');
+            var info1 = localStorage.getItem('info1');
+            var fb = localStorage.getItem('fb');
+            var sg = localStorage.getItem('sg');
+            var gd = localStorage.getItem('gd');
+
+        </script>
+    </head>
+    <body>
+        <form action="" >
+            <table class="t2">
+                <thead>
+                    <tr class="tborder twidth">
+                        <th class="tborder">First Name</th>
+                        <th class="tborder">Last Name</th>
+                        <th class="tborder">Address line1</th>
+                        <th class="tborder">Address line2</th>
+                        <th class="tborder">City Name</th>
+                        <th class="tborder">State Name</th>
+                        <th class="tborder">Phone No.</th>
+                        <th class="tborder">Email</th>
+                        <th class="tborder">How did you hear about us</th>
+                        <th class="tborder">Feedback</th>
+                        <th class="tborder">Suggestions</th>
+                        <th class="tborder">Gender</th>
+                    </tr>
+                </thead>
+                <tbody id="output" class="tborder">
+                    <tr>
+                        <td id="fn" class="tborder"><script>document.write(fn)</script></td>
+                        <td id="ln" class="tborder"><script>document.write(ln)</script></td>
+                        <td id="ad1" class="tborder"><script>document.write(ad1)</script></td>
+                        <td id="ad2" class="tborder"><script>document.write(ad2)</script></td>
+                        <td id="cn" class="tborder"><script>document.write(cn)</script></td>
+                        <td id="sn" class="tborder"><script>document.write(sn)</script></td>
+                        <td id="nm" class="tborder"><script>document.write(nm)</script></td>
+                        <td id="email1" class="tborder"><script>document.write(email1)</script></td>
+                        <td id="info1" class="tborder"><script>document.write(info1)</script></td>
+                        <td id="fb" class="tborder"><script>document.write(fb)</script></td>
+                        <td id="sg" class="tborder"><script>document.write(sg)</script></td>
+                        <td id="gd" class="tborder"><script>document.write(gd)</script></td>
+                    </tr>
+                </tbody>
+            </table>
+        </form>
+        
+        <script src="../jquery validator plugins/plugins.js"></script>
+    </body>
+</html>
